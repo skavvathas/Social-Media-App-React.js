@@ -25,9 +25,13 @@ Some screenshots from the app is provided below (and the specific route that ren
 
 ###  route /login
 
+The user can login in his profile (if he is already have a profile).
+
 ![login](https://github.com/skavvathas/Social-Media-App-React.js/assets/122029632/2707ace6-2bc9-4b50-b8bd-95699152c9c8)
 
 ###  route /register
+
+The user can register in the app, putting his credentials.
 
 ![register](https://github.com/skavvathas/Social-Media-App-React.js/assets/122029632/c519ea1d-e546-4dc5-8517-aaad288f2750)
 
@@ -58,6 +62,8 @@ Here the user can search for other users of the app.
 
 
 ###  route /users
+
+The current users of the app.
 
 ![user1](https://github.com/skavvathas/Social-Media-App-React.js/assets/122029632/43a5f366-97e1-4253-84c6-af6c93d33ba0)
 
