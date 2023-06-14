@@ -38,8 +38,9 @@ The user can register in the app, putting his credentials.
 
 ###  route /home
 
-(From user with username `mat` is the below screenshots)
-In the mid the user can scroll down to see and other posts from users.
+(From user with username `mat` is the below screenshots).
+
+In the middle the user can scroll down to see and other posts from users.
 
 ![home](https://github.com/skavvathas/Social-Media-App-React.js/assets/122029632/914eb6ed-9848-429e-97af-777258ef4269)
 
