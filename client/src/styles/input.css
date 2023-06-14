@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: Proxima Nova, system-ui, sans-serif;
+    }
+}
+
+.btn {
+    @apply font-sans helvetica rounded-full py-3 px-14 text-xl cursor-pointer border-solid border-zinc-700 border-2
+}
+
+.formrose {
+    @apply rounded-md border-zinc-700 border-2 border-solid bg-rose-50
+}
+
+.helvetica {
+    font-family: "Helvetica Neue LT Pro", Helvetica, Arial, sans-serif;
+}

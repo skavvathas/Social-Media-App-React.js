@@ -1,0 +1,70 @@
+.follow-button{    
+    width: 70px;
+    background-color: rgb(17, 17, 17);
+    color: rgb(249, 249, 249);
+    text-align: center;
+    padding:3px;
+    margin-left: 10px;
+    border-radius: 50px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.follow-button1{
+    width: 100px;
+    background-color: rgb(17, 17, 17);
+    color: rgb(249, 249, 249);
+    text-align: center;
+    padding:3px;
+    margin-left: 10px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.profile-btn1{
+    width:250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 14px;
+    background-color: rgb(203, 255, 255);
+}
+
+.profile-btn2{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: rgb(215, 215, 215);
+}
+
+
+.user1{
+    padding-top: 1px;
+}
+
+.profile-btn1:hover{
+    background-color: rgb(255, 240, 253);
+}
+
+.profile-info1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-info1 .name{
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.profile-info1 .username{
+    color:rgb(83, 75, 75)
+}

@@ -1,0 +1,93 @@
+.userDiv{
+    padding-bottom: 100px;
+    border-bottom: 1px solid goldenrod;
+}
+
+.post-area1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: #ffffff;
+}
+
+.wrapperpost1{
+    background: #fff;
+    border: 0.5px solid black ;
+    max-width: 475px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 25px 25px 15px 25px;
+    box-shadow: 0px 15px 15px rgba(0,0,0,0.1);
+}
+
+.tweet-text-area{
+    width: 410px;
+    height: 100px;
+    max-height: 200px;
+    padding: 10px;
+  border: none;
+  border-radius: 4px;
+
+}
+
+.tweet-btn4{
+    width: 90px;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+   
+    padding:15px;
+    margin-top: 5px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-bottom: 30px;
+}
+
+.tweet-btn4:hover{
+    background-color: rgb(222, 198, 245);
+}
+
+.bottom1{
+    display: flex;
+    margin-top: 23px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom1 .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom1 .icons{
+    display: inline-flex;
+}
+
+.icons {
+    border-radius: 50%;
+    
+    padding: 7px;
+}
+
+.icons:hover {
+    background-color: aqua;
+}
+
+.icons li{
+    list-style: none;
+    color: #1da1f2;
+    font-size: 20px;
+    margin: 0 2px;
+    height: 38px;
+    width: 38px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background 0.2s ease;
+}   

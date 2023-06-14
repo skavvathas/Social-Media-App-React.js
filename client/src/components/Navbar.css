@@ -1,0 +1,167 @@
+.my-link-class{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style:none;
+}
+
+.container{
+    background: rgb(255, 255, 255);
+    max-width: 1440px;
+    margin: auto;
+}
+
+.side-bar{
+    height: 100%;
+    width: 20%;
+    
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: 100;
+}
+
+.nav-bar-brand{
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 8px 8px 4px 10px;
+    border-radius: 50%;
+}
+
+.nav-bar-brand:hover{
+    background-color: rgb(222, 198, 245);
+}
+
+.nav-item {
+    padding: 8px 25px 8px 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 230px;
+}
+
+.nav-item:hover{
+    background-color: rgb(222, 198, 245);
+}
+
+.nav-item .item-icon{
+    margin-right: 15px;
+}
+
+.icon {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.nav-item .item-icon.hash{
+    padding: 0 3px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.tweet-btn{
+    display: block;
+    width: 230px;
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    padding:15px;
+    margin-top: 5px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tweet-btn:hover{
+    background-color: rgb(222, 198, 245);
+}
+
+.tweetBoxButton1{
+    background-color: #50b7f5;
+    border: none;
+    color: rgb(16, 15, 15);
+    font-weight: 900;
+    font-size: medium;
+    border-radius: 30px;
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+.profile-btn{
+    width:250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 14px;
+    background-color: rgb(203, 255, 255);
+}
+
+.user{
+    padding-top: 20px;
+}
+
+.profile-btn:hover{
+    background-color: rgb(255, 240, 253);
+}
+
+.profile-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-info .name{
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.profile-info .username{
+    color:rgb(83, 75, 75)
+}
+
+@media screen and (max-width: 1200px) {
+    side-bar {
+        width: 75px;
+    }
+    .nav-item{
+        padding: 9px 11px;
+    }
+    .nav-item .item-icon{
+        margin-right: 0;
+    }
+    .nav-item .item-link{
+        display: none;
+    }
+    .nav-item.hash{
+        width: 48px;
+        height: 48px;
+    }
+
+    .tweet-btn{
+        font-size: 20px;
+        width:auto;
+        padding: 12px;
+    }
+
+    .tweet-btn .h1{
+        display:none;
+    }
+}

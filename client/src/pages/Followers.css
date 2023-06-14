@@ -1,0 +1,22 @@
+.centered-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    font-weight: bold;
+    color: black;
+}
+
+.sticky-following{
+    position: sticky;
+    top: 0;
+    height: 70px;
+    background-color: rgb(255, 240, 253);;
+    opacity: 0.9;
+    color: #040304;
+    font-size: large;
+    border-bottom: 1px solid black;
+    padding-top: 15px;
+    padding-left: 3px;
+    font-weight: bold;
+}
