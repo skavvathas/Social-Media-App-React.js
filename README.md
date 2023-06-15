@@ -1,15 +1,14 @@
 # Social-Media-App-React.js
 
-The project have been created on __Node.js__ environment. So the user is needed to have downloaded __Node.js__ in his computer. Furthermore, the project utilize __React.js__ for the frontend and __Express.js__ in the backend. The Database is __MongoDB__ and all users and posts are saved there. Also, it is crucial to highlight that for the UI __CSS__ was utilized.
+The project has been developed using the __Node.js__ environment. Therefore, it is necessary for the user to have __Node.js__ installed on their computer. Additionally, the project utilizes __React.js__ for the frontend and __Express.js__ for the backend. The database used is __MongoDB__, where all user and post data is stored. It's important to note that __CSS__ was used for the user interface design.
 
-The user after the file downloading can start to run the project locally. The user should open a terminal in the server and the client folder and type on each of them the command: `npm i` to install all the required node modules.
+Once the files are downloaded, the user can run the project locally. To do this, open a terminal in both the server and client folders and execute the command `npm i` in each of them. This will install all the required node modules.
 
-Also the user should connect his MongoDB Database in the application (he can do it in the server.js file on the server folder), because the exact Cluster that the editor is using is not provided for safety reasons.
-Also in the project the JWT token is being used for the authentication of the users. The user should create a file `.env` in order to be able to authenticate the users of the app. In this file he should add a secret key by writing `SECRET=<key>` AND `PORT=4000`. The .env of the editor is not provided for obvious reasons. 
+Furthermore, the user needs to connect their MongoDB database in the application. This can be done by modifying the `server.js` file in the server folder. The specific cluster used by the editor is not provided for safety reasons.
 
+In the project, JWT tokens are used for user authentication. To enable user authentication in the app, the user should create a file named ".env". In this file, they should add a secret key by writing `SECRET=<key>` and specify the port as `PORT=4000`. The .env file used by the editor is not provided for obvious security reasons.
 
-After that the user can run the application, by typing `npm start` in both terminals.
-The server is running on the `localhost:4000` and the client on the `localhost:3000` .
+Once these configurations are complete, the user can run the application by typing `npm start` in both terminals. The server will be running on "localhost:4000" and the client on `localhost:3000`.
 
 
 ## About the app
