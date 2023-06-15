@@ -6,9 +6,9 @@ Once the files are downloaded, the user can run the project locally. To do this,
 
 Furthermore, the user needs to connect their MongoDB database in the application. This can be done by modifying the `server.js` file in the server folder. The specific cluster used by the editor is not provided for safety reasons.
 
-In the project, JWT tokens are used for user authentication. To enable user authentication in the app, the user should create a file named ".env". In this file, they should add a secret key by writing `SECRET=<key>` and specify the port as `PORT=4000`. The .env file used by the editor is not provided for obvious security reasons.
+In the project, JWT tokens are used for user authentication. To enable user authentication in the app, the user should create a file named `.env`. In this file, they should add a secret key by writing `SECRET=<key>` and specify the port as `PORT=4000`. The .env file used by the editor is not provided for obvious security reasons.
 
-Once these configurations are complete, the user can run the application by typing `npm start` in both terminals. The server will be running on "localhost:4000" and the client on `localhost:3000`.
+Once these configurations are complete, the user can run the application by typing `npm start` in both terminals. The server will be running on `localhost:4000` and the client on `localhost:3000`.
 
 
 ## About the app
