@@ -37,7 +37,7 @@ The user can register in the app, putting his credentials.
 
 ###  route /home
 
-(From user with username `mat` is the below screenshots).
+(From user with username `mat` are the below screenshots).
 
 In the middle the user can scroll down to see and other posts from users.
 
