@@ -8,7 +8,7 @@ Also the user should connect his MongoDB Database in the application (he can do 
 Also in the project the JWT token is being used for the authentication of the users. The user should create a file `.env` in order to be able to authenticate the users of the app. In this file he should add a secret key by writing `SECRET=<key>` AND `PORT=4000`. The .env of the editor is not provided for obvious reasons. 
 
 
-After that the user can run the application, by typing `npm start in both terminals.
+After that the user can run the application, by typing `npm start` in both terminals.
 The server is running on the `localhost:4000` and the client on the `localhost:3000` .
 
 
